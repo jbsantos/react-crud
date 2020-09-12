@@ -24,6 +24,7 @@ export default function Home({route,navigation}){
 
 
 return(
+  <ScrollView>
     <View>
   <Header
             
@@ -55,6 +56,7 @@ return(
     ))
   } 
     </View>
+    </ScrollView>
 )
 
 }

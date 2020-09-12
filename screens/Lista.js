@@ -23,6 +23,7 @@ export default function ListaScreen({route,navigation}){
     })
 
     return(
+      <ScrollView>
   <View>
     <Header
             
@@ -54,6 +55,7 @@ export default function ListaScreen({route,navigation}){
   }
 
   </View>
+  </ScrollView>
     )
 }
 
